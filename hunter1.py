@@ -13,6 +13,9 @@ if(len(l)==0):
         print("Unique")
 else:
     l.sort()
-    for y in l:
+    if(len(l)!=1):
+        for y in l:
         print(y,end=""," ")
+    esle:
+        print(l[0])
                
