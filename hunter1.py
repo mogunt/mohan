@@ -15,7 +15,6 @@ else:
     l.sort()
     if(len(l)!=1):
         for y in l:
-        print(y,end=""," ")
-    esle:
+            print(y,end=" ")
+    else:
         print(l[0])
-               
